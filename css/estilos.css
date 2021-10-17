@@ -1,0 +1,54 @@
+.estilo_confirma{
+    display: block;
+    margin: auto;
+    background-color: blue;
+    color: white;
+}
+
+.estilo_confirma:hover{
+    display: block;
+    margin: auto;
+    background-color:green;
+}
+
+.estilo_cancela{
+    display: block;
+    margin: auto;
+    background-color: blue;
+    color: white;
+}
+
+.estilo_cancela:hover{
+    display: block;
+    margin: auto;
+    background-color: red;
+}
+
+.estilo_novo{
+    display: block;
+    margin: auto;
+    background-color: blue;
+    color: white;
+}
+
+.estilo_novo:hover{
+    display: block;
+    margin: auto;
+    background-color: blueviolet;
+}
+
+.alinha_texto {
+    text-align: left;
+}
+
+.table{
+    margin-top: 5%;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.h2{
+    text-align: center;
+}
