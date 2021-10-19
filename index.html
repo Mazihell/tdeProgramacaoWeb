@@ -2,33 +2,34 @@
 
 <head>
     <meta charset="UTF-8">
-
     <link rel="stylesheet" href="css/estilos.css">
-
-
 </head>
 
 <body>
-    <h2 class="h2">Informe seu usuario e senha</h2>
-    <table class="table">
-        <tr>
-            <td class="alinha_texto">Usuario:</td>
-            <td><input type="text" name="Usuario" size="15" placeholder="E-mail" /></td>
-        </tr>
-        <tr>
-            <td class="alinha_texto">Senha:</td>
-            <td><input type="password" name="Senha" size="15"></td>
-        </tr>
-        <tr>
-            <td><button class="estilo_confirma">Confirmar</button></td>
-            <td><button class="estilo_cancela">Cancelar</button></td>
-        </tr>
-        <tr>
-            <td><button class="estilo_novo">Novo</button></td>
-        </tr>
+    <form class="form" action="#">
+        <div class="class-div-card">
+            <div class="class-div-texto">
+                <img class="class-imagem" src="img/capa-dog.png" alt="">
+                <h2 class="class-titulo">Login</h2>
+                <p>Informe os dados abaixo</p>
+            </div>
+            <div class="class-grupo">
+                <label>Email</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+            </div>
+            <div class="class-grupo">
+                <label>Senha</label>
+                <input type="password" name="senha" placeholder="Digite sua senha" required>
+            </div>
+            <div class="class-grupo">
+                <label><input type="checkbox">Lembre-me</label>
+            </div>
+            <div class="class-grupo botao">
+                <button type="submit">ENTRAR</button>
+            </div>
 
-    </table>
-
+        </div>
+    </form>
 </body>
 
 </html>
