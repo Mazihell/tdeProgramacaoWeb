@@ -104,6 +104,7 @@ body{
 }
 .botao button:hover{
     background-image: linear-gradient(to right, rgb(150, 69, 69), rgb(97, 32, 48));
+    cursor: pointer;
 }
 
 
