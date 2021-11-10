@@ -2,44 +2,36 @@
 
 <head>
     <meta charset="UTF-8">
-
     <link rel="stylesheet" href="../css/estilos-cadastro.css">
-    <script type="text/javascript" src="../js/funcoes.js"></script>
-
+    <script src="../js/funcoes.js"></script>
 </head>
 
 <body>
-    <form class="form">
+    <form class="form" method="post" action="../php/inserir.php">
         <div class="class-div">
             <h2 class="class-cor-texto">
                 Preencha os dados abaixo</h2>
             <p class="class-titulo">Cadastro de acesso</p>
             <div class="class-div-dados">
-                <input type="text" name="nome" placeholder="Digite seu nome" required>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
             </div>
             <div class="class-div-dados">
-                <input type="text" name="sobrenome" placeholder="Digite seu sobre nome" required>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobre nome">
             </div>
             <div class="class-div-dados">
-                <input type="email" name="email" placeholder="Digite seu e-mail" required>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
             </div>
             <div class="class-div-dados">
-                <input type="password" name="password" placeholder="Digite sua senha" required>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha">
             </div>
             <div class="class-div-dados">
-                <input type="password" name="password" placeholder="Confirme sua senha" required>
+                <input type="password" name="passwordconfirm" id="passwordconfirm" placeholder="Confirme sua senha">
             </div>
             <div class="class-div-dados botao">
-                <button type="submit" id="btConfirma">CONFIRMA</button>
+                <button type="submit">CONFIRMA</button>
             </div>
-
         </div>
-
-
-
     </form>
-
-
 </body>
 
 </html>

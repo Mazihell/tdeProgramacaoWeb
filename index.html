@@ -1,12 +1,15 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <meta charset="UTF-8"/>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="css/estilos-login.css">
+    <script src="js/funcoes.js"></script>
 </head>
-
 <body>
-    <form class="form" action="#">
+    <form class="form" method="post" action="php/validarsenha.php">
         <div class="class-div-card">
             <div class="class-div-texto">
                 <img class="class-imagem" src="img/capa-dog.png" alt="">
@@ -15,21 +18,24 @@
             </div>
             <div class="class-grupo">
                 <label>Email</label>
-                <input type="email" name="email" placeholder="Digite seu email" required>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
             </div>
             <div class="class-grupo">
                 <label>Senha</label>
-                <input type="password" name="senha" placeholder="Digite sua senha" required>
+                <input type="password" name="password" id="password" placeholder="Digite sua senha" required>
             </div>
             <div class="class-grupo">
                 <label><input type="checkbox">Lembre-me</label>
             </div>
             <div class="class-grupo botao">
-                <button type="submit">ENTRAR</button>
+                <button type="submit" id="btConfirma">ENTRAR</button>
+            </div>
+            <div>
+                <a href="paginas/pagina-cadastro.html">Não sou cadastrado</a>
             </div>
 
         </div>
     </form>
+    
 </body>
-
 </html>
